@@ -1,0 +1,28 @@
+.Todoadder {
+    background: #ccc;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #bfe858;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90px;
+    padding: 4px;
+}
+
+.Todoadder div input {
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    transition: all .3s;
+}
+
+.Todoadder button {
+    margin-top: 4px;
+}
+
+.Todoadder div p {
+    text-align: center;
+}

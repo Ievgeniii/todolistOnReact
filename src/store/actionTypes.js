@@ -1,0 +1,6 @@
+export const GET_NAME = 'GET_NAME';
+export const RESET_NAME = 'RESET_NAME';
+export const PUT_NAME = 'PUT_NAME';
+export const LOAD_TODOLIST = 'LOAD_TODOLIST';
+export const SHOW_TODOITEM_LOADER = 'SHOW_TODOITEM_LOADER';
+export const SHOW_ADD_TODOITEM_LOADER = 'SHOW_ADD_TODOITEM_LOADER';

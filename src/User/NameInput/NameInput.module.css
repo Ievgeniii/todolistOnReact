@@ -1,0 +1,19 @@
+.NameRequest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    opacity: 0.9;
+}
+
+.NameRequest input {
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    transition: all .3s;
+}

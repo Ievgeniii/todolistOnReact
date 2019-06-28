@@ -5,9 +5,40 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  background-image: url("./assets/images/Background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  background: #bfe858;
+  cursor: pointer;
+  transition: all .3s;
+  margin: auto;
+  width: 100%;
+}
+
+button:hover {
+  background: #88a63d;
+  color: white;
+}
+
+button span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
 }
